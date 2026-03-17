@@ -1,26 +1,33 @@
 # 🎤 Voice Notes Maker
 
-A simple voice-to-text web application using Deepgram API.
+A simple voice-to-text web application built using Deepgram API.
 
 ## 🚀 Features
-- Record voice using browser
-- Convert speech to text
-- Display transcription
-- Wallet balance (demo mode due to CORS)
+- 🎙 Record voice using browser (MediaRecorder API)
+- 🧠 Convert speech to text using Deepgram
+- 📄 Display transcription in real-time
+- 💰 Wallet balance (demo mode due to CORS)
 
 ## 🛠 Tech Stack
 - HTML
+- CSS
 - JavaScript
 - Deepgram API
 
 ## ⚙️ How it works
-1. User records audio
-2. Audio is sent to Deepgram API
-3. API returns transcription
-4. Text is displayed on screen
+1. User clicks Start Recording
+2. Audio is captured via MediaRecorder
+3. Audio is sent to Deepgram API
+4. Transcription is returned and displayed
 
-## ⚠️ Note
-Wallet balance API is restricted due to CORS. In production, this would be handled via backend.
+## ⚠️ Limitations
+- Wallet balance API is restricted due to CORS
+- In production, backend would be used
 
 ## 🌐 Live Demo
-(Will add after deployment)
+(Add your deployed link here)
+
+## 📌 Future Improvements
+- Backend integration for secure API handling
+- Real-time transcription (streaming)
+- Better UI/UX
