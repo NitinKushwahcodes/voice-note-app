@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voice Notes App</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+      background: #f5f5f5;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 60%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>🎤 Voice Notes Maker</h2>
+
+  <button id="startBtn">Start Recording</button>
+  <button id="stopBtn">Stop Recording</button>
+
+  <div class="box">
+    <h3>Transcription</h3>
+    <p id="output">Nothing yet...</p>
+  </div>
+
+  <div class="box">
+    <h3>Wallet Balance</h3>
+    <p id="balance">Demo Mode (CORS blocked)</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
